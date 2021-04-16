@@ -1,0 +1,56 @@
+{
+  "uid" : "80aa8a7aec7fd826",
+  "name" : "test_information",
+  "fullName" : "test_case.test_information3#test_information",
+  "historyId" : "ac7f4079c168e0d169d5df8db56ab99f",
+  "time" : {
+    "start" : 1618481544393,
+    "stop" : 1618481544573,
+    "duration" : 180
+  },
+  "description" : "信息流接口",
+  "descriptionHtml" : "<p>信息流接口</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_information3"
+  }, {
+    "name" : "host",
+    "value" : "zhangfushuai"
+  }, {
+    "name" : "thread",
+    "value" : "17972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_information3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "测试接口",
+    "url" : "http://bug.com/user-login-Lw==.html",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80aa8a7aec7fd826.json",
+  "parameterValues" : [ ]
+}
