@@ -1,0 +1,48 @@
+
+# 获取信息流
+test_information:
+    URL: 'http://testcalapi.hellogeek.com/qihufeeds/list'
+    data: {
+        "pageSize": "10",
+        "action": "1",
+        "isWifi": "1",
+        "channelId": "youlike"
+    }
+    headers : {
+        'env': 'HO9gbqo35qYT91j0fiy/x37Icbkd2UoTnCN2eQ+Y1aFTxFB6Bi3BGI0WurW823fqjOEgvE7ZV1h7Ocf4EZoXBg==',
+        'group': 'mDA+2UicASikWBs82nbK14Vt9Jc764HXfQ9rzsKfBb4U6933qdjhlc5l8U9hewntrA43WwTSxfLU1eJYTjMEGg==',
+        'platform-id': 'Dy5WK0YIUUE2CArFoDtrNZicTGv+HIu5729Ji+Y/j/bhqXUqrSgeROXXuR3m6Ajtsaa8u1m/Li8HptvzWMGuTA==',
+        'source': '3',
+        'os_system': '1',
+        'osSystem': '1',
+        'app-id': '',
+        'token': '',
+        'UserId': '-1',
+        'sign': '',
+        'timestamp': '1617785020717',
+        'uuid': '20309da382c16919',
+        'version': '4.14dev',
+        'ua': 'luckCalendar%2F4.14dev%2FDalvik%2F2.1.0+%28Linux%3B+U%3B+Android+10%3B+STK-AL00+Build%2FHUAWEISTK-AL00%29',
+        'appSign': '03BC67CCDAD489A9E2F5FFDDB9C58318',
+        'channel': 'jrl_test',
+        'bid': '93',
+        'userActive': '1617779616035',
+        'versionCode': '88',
+        'productName': 'jirili',
+        'bizCode': 'zhugewannianli',
+        'oaid': 'efbf3f7d-fbbb-76b9-ea6e-17fbf7c4c641',
+        'loginUserId': '',
+        'loginToken': '',
+        'Content-Type': 'application/json; charset=utf-8',
+        'Content-Length': '59',
+        'Host': 'testcalapi.hellogeek.com',
+        'Connection': 'Keep-Alive',
+        'Accept-Encoding': 'gzip',
+        'User-Agent': 'okhttp/4.8.1'
+    }
+    #    预期结果
+    exp_code: {
+        'code': 0,
+        'msg': '执行成功',
+        'req_code': 200
+    }

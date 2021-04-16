@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "zhangfushuai",
+    "children" : [ {
+      "name" : "18660-MainThread",
+      "children" : [ {
+        "name" : "test_information",
+        "uid" : "85aa50de6e10f11",
+        "parentUid" : "a7ea0866f768022b16d32c46d7cf40a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618484542355,
+          "stop" : 1618484542569,
+          "duration" : 214
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7ea0866f768022b16d32c46d7cf40a3"
+    } ],
+    "uid" : "ec3b718d4f8cc014816a854658b28836"
+  } ]
+}
